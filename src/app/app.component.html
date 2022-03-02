@@ -1,1 +1,7 @@
 <h1>Modal Example</h1>
+
+<button (click)="modalService.open('modal-1')">Open Modal</button>
+<jw-modal id="modal-1">
+    <p>some Modal text</p>
+    <button (click)="modalService.close('modal-1')">Close Modal</button>
+</jw-modal>
